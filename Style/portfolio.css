@@ -50,6 +50,67 @@
   .lien-conteneur-photo:hover .photo-hover {
     display: flex;
   }
+
+  /* .thumbnail {
+    width: 150px;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.thumbnail:hover {
+    transform: scale(1.05);
+} */
+
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+    transform: translateY(3%);
+ 
+    
+}
+
+.Portraits {
+    text-align: center;
+    color: black; 
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
+
+.modal-content {
+    margin: auto;
+    display: block;
+    transform: translateY(15%);
+    max-width: 80%;
+    max-height: 80%;
+}
+.close {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#demo {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 0px;
+}
+
+#demo::before {
+  content: "-20% sur tout les tarifs - ";
+}
+
   
   @media screen and (max-width: 996px) {
     .grid-paysages {

@@ -43,6 +43,26 @@
     margin-bottom: 50px;
   }
   
+  #demo {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 0px;
+  }
+
+  #demo::before {
+    content: "-20% sur tout les tarifs -";
+  }
+
+  .close {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
   form {
     display: flex;
     flex-direction: column;
