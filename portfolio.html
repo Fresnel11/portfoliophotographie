@@ -13,6 +13,9 @@
 
 <body>
     <header>
+        <div id="demo">
+            <span class="close" onclick="promoNav()">&times;</span>
+        </div>
         <nav>
             <a href="index.html" class="lien-icone">
                 <img src="images/logo.png" alt="Logo Robbie Lens" >
@@ -21,6 +24,7 @@
                 <a href="index.html">Accueil</a>
                 <a href="a-propos.html">À propos</a>
                 <a href="portfolio.html">Portfolio</a>
+                <a href="./blog.html">Mon blog</a>
             </div>
         </nav>
     </header>
@@ -29,72 +33,81 @@
             <h1>Portfolio</h1>
         </section>
         <section class="portfolio-section-photos">
-            <h2>Paysages</h2>
+            <center>
+                <h2>Paysages</h2>
+            </center>
             <div class="grid-paysages">
-                <a href="images/paysage1.jpg" class="lien-conteneur-photo">
-                    <img src="images/paysage1.jpg" alt="Mont Aoraki - Nouvelle-Zélande" >
+                <a href="#" class="lien-conteneur-photo" onclick="openPhoto('./images/paysage1.jpg', event)">
+                    <img src="images/paysage1.jpg" class="thumbnail" alt="Mont Aoraki - Nouvelle-Zélande" >
                     <div class="photo-hover">Voir la photo</div>
                 </a>
-                <a href="images/paysage2.jpg" class="lien-conteneur-photo">
-                    <img src="images/paysage2.jpg" alt="Parc National d’Abel Tasman - Nouvelle-Zélande" >
+                <a href="#" class="lien-conteneur-photo" onclick="openPhoto('./images/paysage2.jpg', event)">
+                    <img src="images/paysage2.jpg" class="thumbnail" alt="Parc National d’Abel Tasman - Nouvelle-Zélande" >
                     <div class="photo-hover">Voir la photo</div>
                 </a>
-                <a href="images/paysage3.jpg" class="lien-conteneur-photo">
-                    <img src="images/paysage3.jpg" alt="Lac Rotorua - Nouvelle-Zélande" >
+                <a href="#" class="lien-conteneur-photo" onclick="openPhoto('./images/paysage3.jpg', event)">
+                    <img src="images/paysage3.jpg" class="thumbnail" alt="Lac Rotorua - Nouvelle-Zélande" >
                     <div class="photo-hover">Voir la photo</div>
                 </a>
-                <a href="images/paysage4.jpg" class="lien-conteneur-photo">
-                    <img src="images/paysage4.jpg" alt="Lac Wanaka - Nouvelle-Zélande" >
+                <a href="#" class="lien-conteneur-photo" onclick="openPhoto('./images/paysage4.jpg' , event)">
+                    <img src="images/paysage4.jpg" class="thumbnail" alt="Lac Wanaka - Nouvelle-Zélande" >
                     <div class="photo-hover">Voir la photo</div>
                 </a>
-                <a href="images/paysage5.jpg" class="lien-conteneur-photo">
-                    <img src="images/paysage5.jpg" alt="Mont Taranaki - Nouvelle-Zélande" >
+                <a href="#" class="lien-conteneur-photo" onclick="openPhoto('./images/paysage5.jpg' , event)">
+                    <img src="images/paysage5.jpg" class="thumbnail" alt="Mont Taranaki - Nouvelle-Zélande" >
                     <div class="photo-hover">Voir la photo</div>
                 </a>
-                <a href="images/paysage6.jpg" class="lien-conteneur-photo">
-                    <img src="images/paysage6.jpg" alt="Milford Sound - Nouvelle-Zélande" >
+                <a href="#" class="lien-conteneur-photo" onclick="openPhoto('./images/paysage6.jpg' , event)">
+                    <img src="images/paysage6.jpg" class="thumbnail" alt="Milford Sound - Nouvelle-Zélande" >
                     <div class="photo-hover">Voir la photo</div>
                 </a>
-                <a href="images/paysage7.jpg" class="lien-conteneur-photo">
-                    <img src="images/paysage7.jpg" alt="Twelve Apostle - Australie" >
+                <a href="#" class="lien-conteneur-photo" onclick="openPhoto('./images/paysage7.jpg' , event)">
+                    <img src="images/paysage7.jpg" class="thumbnail" alt="Twelve Apostle - Australie" >
                     <div class="photo-hover">Voir la photo</div>
                 </a>
-                <a href="images/paysage8.jpg" class="lien-conteneur-photo">
-                    <img src="images/paysage8.jpg" alt="Wai-O-Tapu - Nouvelle-Zélande" >
+                <a href="#" class="lien-conteneur-photo" onclick="openPhoto('./images/paysage8.jpg' , event)">
+                    <img src="images/paysage8.jpg" class="thumbnail" alt="Wai-O-Tapu - Nouvelle-Zélande" >
                     <div class="photo-hover">Voir la photo</div>
                 </a>
-                <a href="images/paysage9.jpg" class="lien-conteneur-photo">
-                    <img src="images/paysage9.jpg" alt="Mont Cook - Nouvelle Zélande" >
+                <a href="#" class="lien-conteneur-photo" onclick="openPhoto('./images/paysage9.jpg' , event)">
+                    <img src="images/paysage9.jpg" class="thumbnail" alt="Mont Cook - Nouvelle Zélande" >
                     <div class="photo-hover">Voir la photo</div>
                 </a>
             </div>
-            <h2>Portraits</h2>
+
+            <center>
+                <h2 class="Portraits">Portraits</h2>
+            </center>
             <div class="grid-portraits">
-                <a href="images/portrait1.jpg" class="lien-conteneur-photo">
-                    <img src="images/portrait1.jpg" alt="Portrait jeune femme 1" >
+                <a href="# " class="lien-conteneur-photo" onclick="openPhoto('./images/portrait1.jpg', event)">
+                    <img src="images/portrait1.jpg" class="thumbnail" alt="Portrait jeune femme 1" >
                     <div class="photo-hover">Voir la photo</div>
                 </a>
-                <a href="images/portrait2.jpg" class="lien-conteneur-photo">
-                    <img src="images/portrait2.jpg" alt="Portrait jeune femme 2" >
+                <a href="#" class="lien-conteneur-photo" onclick="openPhoto('./images/portrait2.jpg' , event)">
+                    <img src="images/portrait2.jpg" class="thumbnail" alt="Portrait jeune femme 2" >
                     <div class="photo-hover">Voir la photo</div>
                 </a>
-                <a href="images/portrait3.jpg" class="lien-conteneur-photo">
-                    <img src="images/portrait3.jpg" alt="Portrait jeune homme 3" >
+                <a href="#" class="lien-conteneur-photo" onclick="openPhoto('./images/portrait3.jpg' , event)">
+                    <img src="images/portrait3.jpg" class="thumbnail" alt="Portrait jeune homme 3" >
                     <div class="photo-hover">Voir la photo</div>
                 </a>
-                <a href="images/portrait4.jpg" class="lien-conteneur-photo">
-                    <img src="images/portrait4.jpg" alt="Portrait jeune femme 4" >
+                <a href="#" class="lien-conteneur-photo" onclick="openPhoto('./images/portrait4.jpg' , event)">
+                    <img src="images/portrait4.jpg" class="thumbnail" alt="Portrait jeune femme 4" >
                     <div class="photo-hover">Voir la photo</div>
                 </a>
-                <a href="images/portrait5.jpg" class="lien-conteneur-photo">
-                    <img src="images/portrait5.jpg" alt="Portrait jeune femme 5" >
+                <a href="#" class="lien-conteneur-photo" onclick="openPhoto('./images/portrait5.jpg' , event)">
+                    <img src="images/portrait5.jpg" class="thumbnail" alt="Portrait jeune femme 5" >
                     <div class="photo-hover">Voir la photo</div>
                 </a>
-                <a href="images/portrait6.jpg" class="lien-conteneur-photo">
-                    <img src="images/portrait6.jpg" alt="Portrait jeune femme 6" >
+                <a href="#" class="lien-conteneur-photo" onclick="openPhoto('./images/portrait6.jpg' , event)">
+                    <img src="images/portrait6.jpg" class="thumbnail" alt="Portrait jeune femme 6" >
                     <div class="photo-hover">Voir la photo</div>
                 </a>
 
+                <div id="modal" class="modal">
+                    <span class="close" onclick="closePhoto()">&times;</span>
+                    <img class="modal-content" id="modalImage">
+                </div>
             </div>
         </section>
     </main>
@@ -111,6 +124,7 @@
             </a>
         </div>
     </footer>
+    <script src="./pop_up.js"></script>
 </body>
 
 </html>

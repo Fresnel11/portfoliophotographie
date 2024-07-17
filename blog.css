@@ -1,0 +1,130 @@
+/* Reset des styles et base */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#demo {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 0px;
+  }
+
+  #demo::before {
+    content: "-20% sur tout les tarifs -";
+  }
+
+  
+h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #a5b4fc;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.img3 {
+    float: left;
+    width: 600px; 
+    height: auto; 
+    margin: 0 0 15px 15px; 
+}
+
+.column-33 {
+    font-size: small;
+    
+}
+
+.img2 {
+    float: right;
+    width: 600px; 
+    height: auto; 
+    margin: 0 0 15px 15px; 
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    transform: t;
+}
+
+.img {  
+   
+    float: left;
+    width: 600px; 
+    height: auto; 
+    margin: 0 15px 15px 0; 
+
+  }
+  
+
+p {
+    text-align: justify;
+    text-justify: inter-word; /* Ajuste l'espace entre les mots */
+    padding: 10px;
+   
+}
+
+.autor {
+    color: #a6a6e2;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;    
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+main {
+    padding: 20px 0;
+}
+
+.article {
+    margin-bottom: 40px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+}
+
+.article h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.article img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.article p {
+    line-height: 1.8;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+footer nav {
+    margin-top: 10px;
+}
+
+footer nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer nav a:hover {
+    text-decoration: underline;
+}
+
